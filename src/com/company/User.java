@@ -35,12 +35,12 @@ public class User {
         this.value = value;
     }
 
-//    @Override
-//    public String toString() {
-//        return "User{" +
-//                "account=" + account +
-//                ", name='" + name + '\'' +
-//                ", value=" + value +
-//                '}';
-//    }
+    @Override
+    public String toString() {
+        return "User{" +
+                "account=" + account +
+                ", name='" + name + '\'' +
+                ", value=" + value +
+                '}';
+    }
 }
